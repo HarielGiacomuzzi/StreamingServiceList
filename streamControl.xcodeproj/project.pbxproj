@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		DB840D1824428C0B00DB1D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D1724428C0B00DB1D6E /* AppDelegate.swift */; };
 		DB840D1A24428C0B00DB1D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D1924428C0B00DB1D6E /* SceneDelegate.swift */; };
-		DB840D1C24428C0B00DB1D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D1B24428C0B00DB1D6E /* ContentView.swift */; };
+		DB840D1C24428C0B00DB1D6E /* ServiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D1B24428C0B00DB1D6E /* ServiceListView.swift */; };
 		DB840D1E24428C1000DB1D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB840D1D24428C1000DB1D6E /* Assets.xcassets */; };
 		DB840D2124428C1000DB1D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB840D2024428C1000DB1D6E /* Preview Assets.xcassets */; };
 		DB840D2424428C1000DB1D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB840D2224428C1000DB1D6E /* LaunchScreen.storyboard */; };
 		DB840D2F24428C1000DB1D6E /* streamControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D2E24428C1000DB1D6E /* streamControlTests.swift */; };
 		DB840D3A24428C1100DB1D6E /* streamControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D3924428C1100DB1D6E /* streamControlUITests.swift */; };
+		DB840D4924428CD200DB1D6E /* StreammingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D4824428CD200DB1D6E /* StreammingService.swift */; };
+		DB840D4D244348B300DB1D6E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D4C244348B300DB1D6E /* MainCoordinator.swift */; };
+		DB840D502443490200DB1D6E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D4F2443490200DB1D6E /* CoordinatorProtocol.swift */; };
+		DB840D5624434D1100DB1D6E /* ServiceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D5524434D1100DB1D6E /* ServiceListViewModel.swift */; };
+		DB840D582443849900DB1D6E /* ServiceListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D572443849900DB1D6E /* ServiceListRow.swift */; };
+		DB840D5B24438A8900DB1D6E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB840D5A24438A8900DB1D6E /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 		DB840D1424428C0B00DB1D6E /* streamControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streamControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB840D1724428C0B00DB1D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB840D1924428C0B00DB1D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB840D1B24428C0B00DB1D6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB840D1B24428C0B00DB1D6E /* ServiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListView.swift; sourceTree = "<group>"; };
 		DB840D1D24428C1000DB1D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB840D2024428C1000DB1D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB840D2324428C1000DB1D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		DB840D3524428C1000DB1D6E /* streamControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = streamControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB840D3924428C1100DB1D6E /* streamControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamControlUITests.swift; sourceTree = "<group>"; };
 		DB840D3B24428C1100DB1D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB840D4824428CD200DB1D6E /* StreammingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreammingService.swift; sourceTree = "<group>"; };
+		DB840D4C244348B300DB1D6E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		DB840D4F2443490200DB1D6E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		DB840D5524434D1100DB1D6E /* ServiceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListViewModel.swift; sourceTree = "<group>"; };
+		DB840D572443849900DB1D6E /* ServiceListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListRow.swift; sourceTree = "<group>"; };
+		DB840D5A24438A8900DB1D6E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,11 @@
 		DB840D1624428C0B00DB1D6E /* streamControl */ = {
 			isa = PBXGroup;
 			children = (
-				DB840D1724428C0B00DB1D6E /* AppDelegate.swift */,
-				DB840D1924428C0B00DB1D6E /* SceneDelegate.swift */,
-				DB840D1B24428C0B00DB1D6E /* ContentView.swift */,
-				DB840D1D24428C1000DB1D6E /* Assets.xcassets */,
-				DB840D2224428C1000DB1D6E /* LaunchScreen.storyboard */,
-				DB840D2524428C1000DB1D6E /* Info.plist */,
+				DB840D5924438A7500DB1D6E /* Enums */,
+				DB840D5224434A3100DB1D6E /* Resources */,
+				DB840D4E244348F300DB1D6E /* Protocols */,
+				DB840D4B244348A300DB1D6E /* Scenes */,
+				DB840D4724428C8A00DB1D6E /* Model */,
 				DB840D1F24428C1000DB1D6E /* Preview Content */,
 			);
 			path = streamControl;
@@ -134,6 +145,61 @@
 				DB840D3B24428C1100DB1D6E /* Info.plist */,
 			);
 			path = streamControlUITests;
+			sourceTree = "<group>";
+		};
+		DB840D4724428C8A00DB1D6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D4824428CD200DB1D6E /* StreammingService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB840D4B244348A300DB1D6E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D5124434A1800DB1D6E /* ServiceList */,
+				DB840D4C244348B300DB1D6E /* MainCoordinator.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DB840D4E244348F300DB1D6E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D4F2443490200DB1D6E /* CoordinatorProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DB840D5124434A1800DB1D6E /* ServiceList */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D1B24428C0B00DB1D6E /* ServiceListView.swift */,
+				DB840D5524434D1100DB1D6E /* ServiceListViewModel.swift */,
+				DB840D572443849900DB1D6E /* ServiceListRow.swift */,
+			);
+			path = ServiceList;
+			sourceTree = "<group>";
+		};
+		DB840D5224434A3100DB1D6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D1724428C0B00DB1D6E /* AppDelegate.swift */,
+				DB840D1924428C0B00DB1D6E /* SceneDelegate.swift */,
+				DB840D1D24428C1000DB1D6E /* Assets.xcassets */,
+				DB840D2224428C1000DB1D6E /* LaunchScreen.storyboard */,
+				DB840D2524428C1000DB1D6E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB840D5924438A7500DB1D6E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DB840D5A24438A8900DB1D6E /* Images.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB840D5624434D1100DB1D6E /* ServiceListViewModel.swift in Sources */,
 				DB840D1824428C0B00DB1D6E /* AppDelegate.swift in Sources */,
 				DB840D1A24428C0B00DB1D6E /* SceneDelegate.swift in Sources */,
-				DB840D1C24428C0B00DB1D6E /* ContentView.swift in Sources */,
+				DB840D502443490200DB1D6E /* CoordinatorProtocol.swift in Sources */,
+				DB840D5B24438A8900DB1D6E /* Images.swift in Sources */,
+				DB840D582443849900DB1D6E /* ServiceListRow.swift in Sources */,
+				DB840D4924428CD200DB1D6E /* StreammingService.swift in Sources */,
+				DB840D4D244348B300DB1D6E /* MainCoordinator.swift in Sources */,
+				DB840D1C24428C0B00DB1D6E /* ServiceListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +510,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"streamControl/Preview Content\"";
 				DEVELOPMENT_TEAM = DVXNNDG4U4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = streamControl/Info.plist;
+				INFOPLIST_FILE = streamControl/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +530,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"streamControl/Preview Content\"";
 				DEVELOPMENT_TEAM = DVXNNDG4U4;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = streamControl/Info.plist;
+				INFOPLIST_FILE = streamControl/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
